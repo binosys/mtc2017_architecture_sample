@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ @class:			messenger_viewew.xml
+  ~ @author:		Binosys GmbH | Gabriel Weis
+  ~ @date:			3/3/2017
+  ~ @copyright:		Copyright (c) 2017 All rights reserved by Binosys GmbH (Eschau/Deutschland)
+  -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/messenger_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:background="@color/bs_black_strong_alpha">
+
+    <ListView
+        android:id="@+id/message_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/xsmall_margin"/>
+
+
+    <Spinner
+        android:id="@+id/message_filter"
+        android:layout_width="112dp"
+        android:layout_height="30dp"
+        android:layout_margin="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/bs_white"
+        android:entries="@array/message_filter"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<!--
+  ~ @class:			activity_messenger.xml
+  ~ @author:		Binosys GmbH | Gabriel Weis
+  ~ @date:			9/3/2017
+  ~ @copyright:		Copyright (c) 2017 All rights reserved by Binosys GmbH (Eschau/Deutschland)
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/container_main"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ui.messenger.MessengerActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+
+</FrameLayout>
+

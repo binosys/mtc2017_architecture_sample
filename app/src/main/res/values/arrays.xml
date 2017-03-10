@@ -1,0 +1,16 @@
+<!--
+  ~ @class:			arrays.xml
+  ~ @author:		Binosys GmbH | Gabriel Weis
+  ~ @date:			3/3/2017
+  ~ @copyright:		Copyright (c) 2017 All rights reserved by Binosys GmbH (Eschau/Deutschland)
+  -->
+
+<resources>
+    <string-array name="message_filter">
+        <item>All</item>
+        <item>Info</item>
+        <item>Warning</item>
+        <item>Alert</item>
+        <item>Unknown</item>
+    </string-array>
+</resources>

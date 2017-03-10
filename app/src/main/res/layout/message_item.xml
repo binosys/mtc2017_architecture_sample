@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ @class:			message_item.xml
+  ~ @author:	    Binosys GmbH | Gabriel Weis
+  ~ @date:			3/3/2017
+  ~ @copyright:		Copyright (c) 2017 All rights reserved by Binosys GmbH (Eschau/Deutschland)
+  -->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/message_item_text"
+          style="@style/MessageItem"/>
